@@ -1,0 +1,17 @@
+helloworld/app.js
+helloworld/app.json
+helloworld/project.config.json
+helloworld/pages/helloworld/helloworld.js
+helloworld/pages/helloworld/helloworld.json
+helloworld/pages/helloworld/helloworld.wxml
+helloworld/pages/helloworld/helloworld.wxss
+helloworld/pages/wxs_test/index.js
+helloworld/pages/wxs_test/index.json
+helloworld/pages/wxs_test/index.wxml
+helloworld/pages/wxs_test/index.wxss
+helloworld/pages/wxs_test/m1.wxs
+helloworld/pages/wxs_test/m2.wxs
+helloworld/pages/wxs_test2/index.js
+helloworld/pages/wxs_test2/index.json
+helloworld/pages/wxs_test2/index.wxml
+helloworld/pages/wxs_test2/index.wxss
