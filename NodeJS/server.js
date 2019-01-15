@@ -1,7 +1,19 @@
-const http=require("http");
+const http = require("http");
+const fs = require("fs");
 
-http.createServer(function(){
-    console.log("有人来了");
+var server = http.createServer(function (req, res) {
+    var file_name = './www' + req.url;
+
+    fs.readFile(file_name, function (err, data) {
+        if (err) {
+            res.write('404');
+        } else {
+            res.write(data);
+        }
+        res.end();
+    });
 });
 
+
 //监听
+server.listen(8080);
