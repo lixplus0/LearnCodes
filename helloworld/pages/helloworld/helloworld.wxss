@@ -1,5 +1,0 @@
-view{
-  width:100%;
-  height:48rpx;
-  color:red !important;
-}

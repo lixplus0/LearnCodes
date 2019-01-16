@@ -1,5 +1,0 @@
-<view>
-  <block wx:for="{{iitems}}" wx:for-item="item" wx:key="index">
-    <view>{{index}}:{{item.name}}</view>
-  </block>
-</view>

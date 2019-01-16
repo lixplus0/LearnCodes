@@ -1,5 +1,0 @@
-<view>
-  <view class="btn" bindtap="clickMe">
-    点击我！
-  </view>
-</view>
