@@ -79,7 +79,7 @@ Git有什么特点？简单来说就是：高端大气上档次！
    默认的`git://`使用`ssh`，速度更快。ssh放在C:\Users\用户名\\.ssh中，共有三个文件：
    `id_rsa`，`id_rsa.pub`，`known_hosts`。
 
-    输入以下命令切换到`ssh`登陆：
+    输入以下命令切换到`ssh`登陆,或者远端更改版本库名称：
     ```
     git remote set-url origin git@github.com:用户名/learngit.git
     ```
