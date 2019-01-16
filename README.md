@@ -76,7 +76,7 @@ Git有什么特点？简单来说就是：高端大气上档次！
    ```
    git clone git@github.com:用户名/learngit.git ./
    ```
-   默认的`git://`使用`ssh`，速度更快。ssh放在C:\Users\lixplus\.ssh中，共有三个文件：
+   默认的`git://`使用`ssh`，速度更快。ssh放在C:\Users\用户名\\.ssh中，共有三个文件：
    `id_rsa`，`id_rsa.pub`，`known_hosts`。
 
     输入以下命令切换到`ssh`登陆：
