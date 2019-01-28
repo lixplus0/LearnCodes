@@ -1,3 +1,5 @@
-const mod1 = require('./mod');
+const jade=require('jade');
 
-console.log(mod1.a);
+var str=jade.renderFile('./views/1.jade',{pretty:true});
+
+console.log(str);

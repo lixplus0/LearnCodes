@@ -1,5 +1,11 @@
-const jade=require('jade');
+const mysql = require('mysql');
 
-var str=jade.renderFile('./views/1.jade',{pretty:true});
+var db = mysql.createConnection({ host: "localhost", user: 'root', password: 'lixAdmin', database: '20190128' });
 
-console.log(str);
+db.query("SELECT * FROM `user_table`", (err, data) => {
+    if (err)
+        console.log('失败了');
+    else
+        console.log('成功了');
+    console.log(JSON.stringify(data));
+});
